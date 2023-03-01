@@ -1,0 +1,71 @@
+.brand h4 {
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.brand img {
+    width: 120px;
+    margin-top: 40px;
+    height: 120px;
+}
+.brand .imgs {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex: 3;
+}
+.imgs .imgdiv {
+    width: 300px;
+    height: 200px;
+   margin-left: 60px;
+   background-color: aliceblue;
+   border: 2px solid gray;
+}
+.brand .brand-names {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    text-align: center;
+}
+.brand .brand-item {
+    margin-left: 80px;
+     width: 300px;
+     margin-top: 30px;
+}
+               /* ONLY RECENT PROJECT */
+.progects {
+    background-color: rgb(230, 230, 217);
+}
+.progects h2 {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding-top: 20px ;
+}
+.progect h4 {
+    text-transform: uppercase;
+}
+.progect {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.progect .card {
+    margin: 15px 10px ;
+}
+.progect .card-img-top {
+    width: 300px;
+    height: 300px;
+}
+.progect .card-text {
+    width: 250px;
+     height: 70px;
+}
+@media screen and (max-width:500px){
+    .progect {
+        display: flex;
+        flex-direction: column;
+    }
+}

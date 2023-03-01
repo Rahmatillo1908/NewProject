@@ -1,0 +1,61 @@
+.temas h2 {
+    text-transform:uppercase;
+}
+.temas {
+    text-align: center;
+    align-items: center;
+}
+.temas .chiziq {
+    margin: auto;
+    width: 100px;
+    height: 2px;
+    background-color: gainsboro;
+}
+.jamoa {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    text-align: center;
+    align-items: center;
+}
+.jamoa .board {
+    margin-right: 30px;
+}
+.board img {
+    width: 220px;
+  filter: grayscale(1000%);
+
+}
+.board img:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.board .card-text h4{
+    text-transform: uppercase;
+}
+.card-text .icon {
+    display: flex;
+}
+.icon span {
+    margin-left: 20px;
+}
+.vector {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.vector .rasm1 {
+     margin-top: 100px;
+     margin-bottom: 100px;
+}
+.fikr h5{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.vector .he {
+    width: 50%;
+}
+.vector .she {
+    width: 50%;
+}

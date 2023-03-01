@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    height: 80px;
+}
+.navbar .nav {
+    display: flex;
+    font-family: serif;
+}
+.bar .span {
+    color: tan;
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.header .headers {
+    background-image: url('img1.png');
+    height: 550px;
+    color: white;
+    background-size: cover;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+}
+.h1 {
+   display: block;
+   font-size: 70px;
+   font-weight: 400;
+   padding-top: 150px;
+}
+
+.headers .chiziq {
+    width: 120px;
+    height: 5px;
+    background-color: white;
+    margin: auto;
+}
+.lorem {
+    text-align: center;
+    align-items: center;
+    height: 300px;
+    position: relative;
+    background-color: tan;
+}
+.lorems {
+    max-width: 900px;
+    display: block;
+    padding-top: 50px;
+}
+.lorem .btn1 {
+    width: 150px;
+    height: 54px;
+    background: transparent;
+    margin-top: 40px;
+}
+@media screen and (max-width:550px){
+    .navbar .nav {
+        display: block;
+    }
+}

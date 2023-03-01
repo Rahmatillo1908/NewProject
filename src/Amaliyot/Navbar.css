@@ -1,0 +1,27 @@
+.topNavbar {
+    display: flex;
+}
+.container {
+    display: flex;
+    font-family: 'Gotham Pro';
+}
+.imgNavbar {
+    width: 13%;
+    margin-top: 5px;
+    height: 10%;
+}
+.logoName {
+    color: #3B1D8F;
+    font-weight: 900;
+}
+.number {
+    display: flex;
+    align-items: center;
+}
+.btn1 {
+    background: #273895;
+    color: #fff;
+    width: 100px;
+    border-radius: 15px;
+    height: 50px;
+}
